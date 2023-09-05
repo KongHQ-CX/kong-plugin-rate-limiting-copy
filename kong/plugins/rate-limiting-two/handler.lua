@@ -48,7 +48,7 @@ local RateLimitingHandler = {}
 
 
 RateLimitingHandler.VERSION = kong_meta.core_version
-RateLimitingHandler.PRIORITY = 910
+RateLimitingHandler.PRIORITY = 909
 
 
 local function get_identifier(conf)

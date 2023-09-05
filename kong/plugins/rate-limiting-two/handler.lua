@@ -1,6 +1,6 @@
 -- Copyright (C) Kong Inc.
 local timestamp = require "kong.tools.timestamp"
-local policies = require "kong.plugins.rate-limiting-two.policies"
+local policies = require "kong.plugins.rate-limiting.policies"
 local kong_meta = require "kong.meta"
 
 
@@ -16,7 +16,7 @@ local timer_at = ngx.timer.at
 
 
 local EMPTY = {}
-local EXPIRATION = require "kong.plugins.rate-limiting-two.expiration"
+local EXPIRATION = require "kong.plugins.rate-limiting.expiration"
 
 
 local RATELIMIT_LIMIT     = "RateLimit-Limit"

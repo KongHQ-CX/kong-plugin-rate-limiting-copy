@@ -1,2 +1,3 @@
-# kong-plugin-rate-limiting-copy
-Copy of Kong "Rate Limiting" open-source plugin, with a different Lua package name
+# Kong Plugin Rate Limiting Copy
+
+Copy of Kong "Rate Limiting" open-source plugin, with a different Lua package name.
